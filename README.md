@@ -2,7 +2,7 @@
 
 > **Production-Grade, Multi-Tenant B2B Webhook Management & Telemetry Engine**
 
-HookPulse is an enterprise-grade, high-reliability B2B webhook dispatch and management platform built on **Laravel 11**, **Livewire 3**, and **Tailwind CSS**. It is designed to handle asynchronous event delivery, subscription filtering, exponential backoff retries, cryptographic security signatures, and real-time telemetry across multi-tenant workloads with absolute data isolation.
+HookPulse is an enterprise-grade, high-reliability B2B webhook dispatch and management platform built on **Laravel 13**, **Livewire 4**, and **Tailwind CSS**. It is designed to handle asynchronous event delivery, subscription filtering, exponential backoff retries, cryptographic security signatures, and real-time telemetry across multi-tenant workloads with absolute data isolation.
 
 ---
 
@@ -14,14 +14,14 @@ HookPulse is an enterprise-grade, high-reliability B2B webhook dispatch and mana
 - **🔑 HMAC SHA-256 Signature Verification:** Standardized payload security using `X-Webhook-Signature` and timestamp headers to guarantee authenticity and prevent replay attacks.
 - **🎯 Subscription-Based Event Filtering:** Flexible event routing allowing target endpoints to subscribe to specific event types (e.g., `invoice.paid`, `user.registered`) or wildcard (`*`) patterns.
 - **🛡️ Idempotency & Deduplication Guard:** Time-window hash verification protecting downstream consumers against accidental duplicate triggers and payload hammering.
-- **📊 Live Telemetry Dashboard:** Reactive Livewire 3 panel providing tenant context switching, metric snapshots, request inspection drawers, and manual delivery replay triggers.
+- **📊 Live Telemetry Dashboard:** Reactive Livewire 4 panel providing tenant context switching, metric snapshots, request inspection drawers, and manual delivery replay triggers.
 
 ---
 
 ## 🏗️ Architecture & Tech Stack
 
-- **Framework:** [Laravel 11](https://laravel.com/)
-- **Frontend / UI:** [Livewire 3](https://livewire.laravel.com/) + [Tailwind CSS](https://tailwindcss.com/)
+- **Framework:** [Laravel 1](https://laravel.com/)
+- **Frontend / UI:** [Livewire 4](https://livewire.laravel.com/) + [Tailwind CSS](https://tailwindcss.com/)
 - **Database:** [PostgreSQL](https://www.postgresql.org/)
 - **Queue Engine:** Database-backed driver (`QUEUE_CONNECTION=database`) or Redis/Horizon
 - **Language:** PHP 8.2+

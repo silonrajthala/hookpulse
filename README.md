@@ -20,7 +20,7 @@ HookPulse is an enterprise-grade, high-reliability B2B webhook dispatch and mana
 
 ## 🏗️ Architecture & Tech Stack
 
-- **Framework:** [Laravel 1](https://laravel.com/)
+- **Framework:** [Laravel 13](https://laravel.com/)
 - **Frontend / UI:** [Livewire 4](https://livewire.laravel.com/) + [Tailwind CSS](https://tailwindcss.com/)
 - **Database:** [PostgreSQL](https://www.postgresql.org/)
 - **Queue Engine:** Database-backed driver (`QUEUE_CONNECTION=database`) or Redis/Horizon
